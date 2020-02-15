@@ -1,21 +1,36 @@
 <template>
   <AppPage class="Home">
-    <PageHomeHero />
-    <PageHomeEvents />
+    <HomeHero />
+    <HomeEvents />
+    <HomeCommunications />
+    <HomeProjects />
+    <HomeNews />
+    <HomeAbout />
+    <HomeSponsors />
   </AppPage>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import AppPage from '@/components/AppPage.vue'
-import PageHomeHero from '@/components/PageHomeHero.vue'
-import PageHomeEvents from '@/components/PageHomeEvents.vue'
+import HomeHero from '@/components/HomeHero.vue'
+import HomeEvents from '@/components/HomeEvents.vue'
+import HomeCommunications from '@/components/HomeCommunications.vue'
+import HomeProjects from '@/components/HomeProjects.vue'
+import HomeNews from '@/components/HomeNews.vue'
+import HomeAbout from '@/components/HomeAbout.vue'
+import HomeSponsors from '@/components/HomeSponsors.vue'
 
 export default Vue.extend({
   components: {
     AppPage,
-    PageHomeHero,
-    PageHomeEvents
+    HomeHero,
+    HomeEvents,
+    HomeCommunications,
+    HomeProjects,
+    HomeNews,
+    HomeAbout,
+    HomeSponsors
   },
 
   head: {

@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es2018",
     "module": "esnext",
     "moduleResolution": "node",
     "lib": [
@@ -24,6 +24,7 @@
     },
     "types": [
       "@types/node",
+      "@types/jest",
       "@nuxt/types"
     ]
   },

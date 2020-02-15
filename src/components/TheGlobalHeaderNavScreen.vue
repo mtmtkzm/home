@@ -4,10 +4,10 @@
       <div class="container">
         <ul class="list">
           <li class="item">
-            <a class="link" href="/" @click.prevent="jump('/')">About</a>
+            <a class="link" href="/about" @click.prevent="jump('/about')">About</a>
           </li>
           <li class="item">
-            <a class="link" href="/" @click.prevent="jump('/')">Contact</a>
+            <a class="link" href="/contact" @click.prevent="jump('/contact')">Contact</a>
           </li>
         </ul>
 

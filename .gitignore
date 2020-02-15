@@ -1,9 +1,10 @@
 /.nuxt
 /dist
 /node_modules
-*.swp
 *~
+*.swp
 .DS_Store
+.idea
 yarn-debug.log*
 yarn-error.log*
 .idea

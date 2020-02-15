@@ -29,4 +29,15 @@
     padding-top: 8px;
     margin: 0;
   }
+
+  a {
+    color: var(--c-vue-green);
+    text-decoration: none;
+    transition: color 0.25s;
+
+    &:hover {
+      color: var(--c-vue-green-light);
+      text-decoration: none;
+    }
+  }
 }

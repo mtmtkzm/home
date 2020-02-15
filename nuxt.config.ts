@@ -11,7 +11,9 @@ const config: Configuration = {
         'postcss-nested': {},
         'postcss-css-variables': {}
       }
-    }
+    },
+
+    extractCSS: process.env.NODE_ENV === 'production'
   },
 
   buildModules: ['@nuxt/typescript-build'],
@@ -32,7 +34,7 @@ const config: Configuration = {
       { rel: 'icon', href: '/favicon-32.png', sizes: '32x32' },
       { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
       { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: 'rgb(0, 0, 0)' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700|Roboto:400,500,700|Source+Sans+Pro:400,600,700|Inconsolata&display=swap' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700|Roboto:400,500,700|Source+Sans+Pro:400,600,700|Dosis:600|Inconsolata&display=swap' }
     ]
   },
 
